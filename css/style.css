@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  position: relative;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  padding-top: 100px;
+  color: aqua;
+  font-size: 60px;
+}
+
+input, #button {
+  background-color: aqua;
+  font-weight: 900;
+}
+
+#input {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.input, #button {
+  margin-top: 5px;
+  font-size: 30px;
+  border: 3px black solid;
+}
+
+.input {
+  text-align: center;
+  width: 70%;
+}
+
+#button {
+  width: 30%;
+}
+
+.red {
+  display: none;
+  text-align: center;
+  margin-top: 15px;
+  color: red;
+  font-size: 30px;
+}
+
+#code {
+  width: 1140px;
+  margin: auto;
+  text-align: center;
+  flex-wrap: wrap; 
+  justify-content: center;
+  display: none;
+}
+
+.number {
+  background-color: aqua;
+  font-size: 100px;
+  color: black;
+  width: 150px;
+  padding: 50px ;
+  margin: 25px; 
+  border: 3px black solid;
+  line-height: 150px;
+}
+
+::-webkit-input-placeholder { 
+  color: black;
+  font-weight: 900;
+  text-align: center;
+}
+
+.block {
+  border: 50px black solid;
+  position: relative;
+  background-color: aqua;
+  display: none;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  text-align: center;
+  width: 100%;
+  padding: 30px;
+  border: 1px black solid;
+}
+
+.fas {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#background {
+  display: none;
+  z-index: 99998;
+  background-color: rgba(128 128 128 / 87%);
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  position: absolute;
+}
+
+#myAlert {
+  font-size: 30px;
+  line-height: 45px;
+  top: 200px;
+  width: 800px;
+  color: black;
+  background-color: aqua;
+  border: 3px #0c0c0c solid;
+  padding: 10px;
+  z-index: 999999;
+  position: absolute;
+  display: none;
+}
+
+#add {
+  position: absolute;
+  background-color: aqua;
+  padding: 5px 10px;
+  right: 0px;
+  top: -30px;
+}
+
+#myForm {
+  font-size: 30px;
+  color: black;
+  background-color: aqua;
+  border: 3px #0c0c0c solid;
+  z-index: 999999;
+  position: absolute;
+  top: 200px;
+  display: none;
+}
+
+#ok {
+  background-color: black;
+  color: aqua;
+  padding: 5px;
+}
+
+.form {
+  font-size: 24px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.btn {
+  background-color: black;
+  color: aqua;
+  display: inline;
+  width: 130px;
+}
+
+#no {
+  display: none;
+  background-color: black;
+  color: aqua;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.center {
+  width: 1140px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}

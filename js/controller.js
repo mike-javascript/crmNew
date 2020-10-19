@@ -252,6 +252,7 @@ const editFive = params => {
 
 const userInit = async () => {
     var user = await Model.check(objVar.arr[0].firstName, objVar.arr[0].lastName, objVar.arr[0].code);
+    View.edit();
     View.reset();
     View.arr(user);
     editOne();
